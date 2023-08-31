@@ -1,0 +1,33 @@
+h4 {
+  color: #111d4a;
+}
+
+.box {
+  background-color: #0f7173;
+}
+.box .container {
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #92140c;
+  border-color: #92140c;
+  color: white;
+}
+
+.btn-dark {
+  background-color: #111d4a;
+  border-color: #111d4a;
+  color: white;
+}
+
+.btn-light {
+  background-color: #92140c;
+  border-color: #92140c;
+  color: white;
+}
+
+.modal-body a {
+  text-decoration: none;
+  color: white;
+}
