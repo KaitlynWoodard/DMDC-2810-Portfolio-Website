@@ -1,0 +1,42 @@
+// COLORS
+
+$space-cadet: #111d4a;
+$carribean-current: #0f7173;
+$penn-red: #92140c;
+
+
+h4{
+    color: $space-cadet;
+}
+.box{
+    background-color: $carribean-current;
+    .container{
+        color: white;
+    }
+}
+
+.btn-secondary{
+
+    background-color: $penn-red;
+    border-color: $penn-red;
+    color: white;
+
+}
+.btn-dark{
+    background-color: $space-cadet;
+    border-color: $space-cadet;
+    color: white;
+}
+
+.btn-light{
+    background-color: $penn-red;
+    border-color: $penn-red;
+    color: white;
+
+}
+
+.modal-body a{
+    text-decoration: none;
+    color: white;
+}
+

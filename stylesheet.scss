@@ -167,7 +167,7 @@ margin: 1px;
 
 
 #hero-img{
-background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(Carousel.png);
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(images/Carousel.png);
 height: 500px;
 min-width: 100%;
 background-repeat: no-repeat;
@@ -411,14 +411,13 @@ height: auto;
 }
 }
 
-
-
-
 .more-block{
 display: block;
-padding: 0px 20px;
+padding: 10px 20px;
 margin: 10%;
 box-shadow: $space-cadet 0px 3px 15px;
+text-align: center;
+overflow: hidden;
 }
 .services{
 display: flex;
@@ -622,7 +621,7 @@ margin-bottom: 10px;
 
 
 .portfolio-img{
-background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(dragon-edit.png);
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(images/dragon-edit.png);
 height: 500px;
 min-width: 100%;
 max-width: 0%;
@@ -712,8 +711,11 @@ font-size: smaller;
 
 
 
-@media screen and (max-width: 600px) and (min-width: 100px){
+@media screen and (max-width: 600px) and (min-width: 50px){
 
+.smallify{
+    width: auto;
+}
 
 h2{
 font-size: large;
@@ -797,19 +799,7 @@ width: 70%;
 }
 .portfolio-img{
 
-
 background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(dragon-edit.png);
-height: 500px;
-min-width: 100%;
-max-width: 0%;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-content: center;
-
 
 }
 
@@ -853,3 +843,5 @@ display: flex;
 flex-direction: row;
 }
 }
+
+
